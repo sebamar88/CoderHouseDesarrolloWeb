@@ -1,0 +1,83 @@
+// scss-docs-start gray-color-variables
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+$blue:    #0004da !default;
+$indigo:  #6610f2 !default;
+$purple:  #5d27c2 !default;
+$pink:    #d4619b !default;
+$red:     #fa031c !default;
+$orange:  #e26b09 !default;
+$yellow:  #fdf917 !default;
+$green:   #069c56 !default;
+$teal:    #01e09d !default;
+$cyan:    #02d5ff !default;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "azul":       $blue,
+  "indigo":     $indigo,
+  "violeta":     $purple,
+  "rosa":       $pink,
+  "rojo":        $red,
+  "naranja":     $orange,
+  "amarillo":     $yellow,
+  "verde":      $green,
+  "celeste":       $teal,
+  "cyan":       $cyan,
+  "blanco":      $white,
+  "gris":       $gray-600,
+  "gris-oscuro":  $gray-800
+) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$principal:       $blue !default;
+$secundario:     $gray-600 !default;
+$correcto:       $green !default;
+$info:          $cyan !default;
+$precaucion:       $yellow !default;
+$peligro:        $red !default;
+$claro:         $gray-100 !default;
+$oscuro:          $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "principal":    $principal,
+  "secundario":  $secundario,
+  "correcto":    $correcto,
+  "info":       $info,
+  "precaucion":    $precaucion,
+  "peligro":     $peligro,
+  "claro":      $claro,
+  "oscuro":       $oscuro
+) !default;

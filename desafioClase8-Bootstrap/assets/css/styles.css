@@ -1,0 +1,7 @@
+.navbar-brand img{
+    max-width: 300px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#F05300;
+}

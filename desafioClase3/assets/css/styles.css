@@ -1,0 +1,202 @@
+:root{
+    --naranja: #F05300;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--naranja);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.25rem;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+p{
+    color:#0073da;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--naranja); 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.fas.fa-star{
+    color: rgb(158, 158, 12);
+}
+
+/* Inicio de Header / Menu */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--naranja);
+    font-weight: 600;
+}
+
+/* Fin de Header / Menu */
+
+/* Tabla */
+.tabla ul{
+    list-style: none;
+    padding: .5rem;
+}
+.tabla ol {
+    padding: .5rem;
+}
+.tabla ul li{
+    color:var(--naranja);
+    font-weight: 600;
+}
+.tabla ol li{
+    color:#0073da;
+    font-weight: 600;
+}
+
+td{
+    padding: 1rem;
+}
+td:nth-child(2n){
+    background-color: beige;
+}
+td:nth-child(2n+1){
+    background-color: burlywood;
+}
+thead {
+    background-color: aquamarine;
+}
+
+.tabs{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.tabs li{
+    border: 1px solid #ccc;
+    padding: .5rem;
+}
+.tabs li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#branding{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Inicia iframe YouTube  */
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+/* Finaliza iframe YouTube  */
+
+/* Inicia Card Productos */
+
+#modal-X p{
+    padding: .5rem;
+}
+span{
+    color: green;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.add-to-cart{
+    padding: 1rem;
+    background-color: white;
+    border:2px solid var(--naranja);
+    color: var(--naranja);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: .5rem;
+}
+.comprar{
+    padding: 1rem;
+    background-color: var(--naranja);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: .5rem;
+}
+
+/* Finaliza Card Productos */
+
+/* Inicia Footer */
+
+footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content:center;
+    align-items: center;
+}
+
+footer #menu ul{
+    list-style: none;
+}
+
+footer li{
+    padding: .5rem;
+}
+
+footer a i{
+    font-size: 2rem;
+    margin: 0 .5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+}
+
+/* Finaliza Footer */

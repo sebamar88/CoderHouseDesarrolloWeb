@@ -1,0 +1,455 @@
+:root{
+    --naranja: #F05300;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--naranja);
+}
+
+h1 {
+    font-size: 3rem;
+    margin:0
+}
+
+h2{
+    font-size: 2.25rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+p{
+    color:#0073da;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--naranja); 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.fas.fa-star{
+    color: rgb(158, 158, 12);
+}
+
+/* Inician Utilidades */
+
+.pySection {
+    padding: 2rem 0;
+}
+
+.contenedor {
+    max-width:1100px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 1rem 1.5rem;
+    background-color: var(--naranja);
+    color: #fff;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Fin Utilidades */
+
+
+/* Inicio de Header / Menu */
+header {
+    padding: .5rem 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);    
+}
+a .logo{
+    max-width:350px;
+    flex:1;
+}
+header .contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+nav {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav li {
+    flex: 1;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--naranja);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Fin de Header / Menu */
+
+/* Tabla */
+.tabla ul{
+    list-style: none;
+    padding: .5rem;
+}
+.tabla ol {
+    padding: .5rem;
+}
+.tabla ul li{
+    color:var(--naranja);
+    font-weight: 600;
+}
+.tabla ol li{
+    color:#0073da;
+    font-weight: 600;
+}
+
+td{
+    padding: 1rem;
+}
+td:nth-child(2n){
+    background-color: beige;
+}
+td:nth-child(2n+1){
+    background-color: burlywood;
+}
+thead {
+    background-color: aquamarine;
+}
+
+.tabs{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.tabs li{
+    border: 1px solid #ccc;
+    padding: .5rem;
+}
+.tabs li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#branding .contenedor{
+    display:flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#branding .contenedor div{
+    flex: 1;
+}
+/* Inicia iframe YouTube  */
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+/* Finaliza iframe YouTube  */
+
+/* Inicia Card Productos */
+
+#modal-X p{
+    padding: .5rem;
+}
+
+
+.add-to-cart{
+    padding: 1rem;
+    background-color: white;
+    border:2px solid var(--naranja);
+    color: var(--naranja);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: .5rem;
+}
+.comprar{
+    padding: 1rem;
+    background-color: var(--naranja);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: .5rem;
+}
+
+/* Finaliza Card Productos */
+
+/* Inicia Footer */
+
+footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content:center;
+    align-items: center;
+}
+
+footer #menu ul{
+    list-style: none;
+}
+
+footer li{
+    padding: .5rem;
+}
+
+footer a i{
+    font-size: 2rem;
+    margin: 0 .5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+}
+
+/* Finaliza Footer */
+
+/* Inicia Index.html */
+
+#anexo, #galeria {
+    background-color: #e3e3e3;
+    text-align: center;
+}
+#anexo h2{
+    margin:0 0 1rem 0;
+}
+#anexo p{
+    padding-bottom: 1rem;
+}
+#testimoniales h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#testimoniales .contenedor .row {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    column-gap: 1rem;
+}
+#testimoniales .contenedor div {
+    text-align: center;
+}
+#testimoniales .contenedor p {
+    margin-bottom: .5rem;
+}
+#testimoniales .contenedor i {
+    font-size: 1.5rem;
+}
+#galeria .contenedor #carrusel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#carrusel img {
+    flex: 1;
+    width: 33%;
+    margin: .16%;
+}
+/* Finaliza Index.html */
+
+/* Inicia Nosotros */
+
+#personal {
+    background-color:#e3e3e3;
+}
+
+#personal .contenedor{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+}
+#personal .contenedor div {
+    text-align: center;
+}
+#personal .contenedor img {
+    border-radius: 50%;
+}
+
+#galeriaNosotros h2{
+    text-align: center;
+}
+#galeriaNosotros .galeria {
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    column-gap:.5rem;
+}
+/* Finaliza Nosotros */
+
+/* Inicia Servicios */
+
+.banner {
+    height:50vh;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(63, 63, 62, 0.6), rgba(54, 54, 53, 0.4)),url(../img/banner.jpeg);
+    background-position: 50% 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.banner h1{
+    padding: 5vh 5vw;
+    background:linear-gradient(0deg, rgba(170, 170, 169, 1), rgba(228, 228, 225, 0.85));
+}
+
+#servicios .contenedor{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.price {
+    color: rgb(35, 182, 35);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content:center;
+}
+
+/* Finaliza Servicios */
+
+/* Inicia Tienda */
+
+.shopHero {
+    height:50vh;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(63, 63, 62, 0.6), rgba(54, 54, 53, 0.4)),url(https://i.pinimg.com/originals/a4/06/79/a4067917087a8a6c04206e563eba3179.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.shopHero h1{
+    padding: 5vh 5vw;
+    background:linear-gradient(0deg, rgba(170, 170, 169, 1), rgba(228, 228, 225, 0.85));
+}
+
+#productos .row{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+
+.productCard, .serviceCard {
+    margin: 1rem 0;
+    padding:2rem;
+    background: linear-gradient(145deg, #FFFFFF, #C4C6C9);
+    border-radius: 10%;
+    box-shadow: 9.91px 9.91px 15px #d1d2d3, -9.91px -9.91px 15px #FFFFFF;
+}
+
+/* Finaliza Tienda */
+
+/* Inicia Contacto */
+#contacto {
+    background-color: #d1d2d3;
+}
+#contacto .row {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+}
+#contacto input[type="text"], #contacto select, #contacto textarea {
+    display:flex;
+    margin: .5rem 0;
+    width:80%;
+    padding: 1rem .5rem;
+    border: 2px solid #ccc;
+}
+
+/* Finaliza Contacto */
+
+/* COMPLEMENTARIO CLASE 5 */
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: var(--naranja);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: -var(--naranja);}
+
+/* FIN COMPLEMENTARIO CLASE 5 */
+

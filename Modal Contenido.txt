@@ -1,0 +1,25 @@
+<div id="modal-X">
+                        <div>
+                            <img src="../assets/img/peine.png" alt="Peine para Barba">
+                            <h3>Peine para Barba</h3>
+                            <input type="number" name="cantidad">
+                            <p><span>250$</span></p>
+                            <a href="#" class="add-to-cart">Agregar al Carrito</a>
+                            <a href="#" class="comprar">Comprar Ahora!</a>
+                        </div>
+                        <div>
+                            
+                                <ul class="tabs">
+                                    <li><a href="#">Descripcion</a></li>
+                                    <li><a href="#">Valoracion</a></li>
+                                </ul>                                 
+                                <div id="valoracion-X">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Excelente calidad, super recomendable</p></li>
+                                        <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Volveria a comprarlo! Deja mi barba muy bien</p></li>
+                                        <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><p>Mi esposo esta encantado con los resultados</p></li>
+                                    </ul>
+                                </div>
+                            
+                        </div>
+                    </div>
